@@ -1,0 +1,8 @@
+def to_smash(total_candies, n=3):
+    """Return the number of leftover candies that must be smashed after distributing
+    the given number of candies evenly between n friends (default value for n is 3).
+    
+    >>> to_smash(91)
+    1
+    """
+    return total_candies % n
